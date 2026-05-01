@@ -69,7 +69,7 @@ JWT_SECRET=<strong random secret>
 NODE_ENV=production
 ```
 
-The deploy command runs migrations, seeds demo users, and starts the server:
+The Dockerfile command runs migrations, seeds demo users, and starts the server:
 
 ```bash
 cd server && npx prisma migrate deploy && npx prisma db seed && npm start

@@ -199,7 +199,7 @@ curl http://localhost:4000/api/health
 3. Set `DATABASE_URL`, `JWT_SECRET`, and `NODE_ENV=production`.
 4. Deploy the GitHub repository.
 
-The Docker build:
+The Docker build and start flow:
 
 ```text
 1. Installs server dependencies

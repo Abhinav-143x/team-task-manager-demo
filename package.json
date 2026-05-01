@@ -1,0 +1,11 @@
+{
+  "name": "team-task-manager",
+  "private": true,
+  "scripts": {
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "build": "npm --prefix client run build",
+    "start": "npm --prefix server start",
+    "postinstall": "npm --prefix server install && npm --prefix client install"
+  }
+}

@@ -69,10 +69,10 @@ JWT_SECRET=<strong random secret>
 NODE_ENV=production
 ```
 
-The deploy command runs:
+The deploy command runs migrations, seeds demo users, and starts the server:
 
 ```bash
-cd server && npx prisma migrate deploy && npm start
+cd server && npx prisma migrate deploy && npx prisma db seed && npm start
 ```
 
 The Express server serves the built React app from `client/dist`, so Railway can host the full app as one service.

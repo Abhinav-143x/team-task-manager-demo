@@ -17,4 +17,4 @@ RUN cd client && npm run build
 ENV NODE_ENV=production
 ENV PORT=4000
 
-CMD ["sh", "-c", "cd server && npx prisma migrate deploy && npm start"]
+CMD ["sh", "-c", "cd server && npx prisma migrate deploy && npx prisma db seed && npm start"]

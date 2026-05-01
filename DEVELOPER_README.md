@@ -207,7 +207,8 @@ The Docker build:
 3. Generates Prisma client
 4. Builds React
 5. Runs Prisma migrations
-6. Starts Express
+6. Seeds demo users and sample tasks
+7. Starts Express
 ```
 
 ## Demo Notes
